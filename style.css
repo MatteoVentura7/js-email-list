@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    background-color:white
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  ul li{
+    list-style: none;
+    text-align: center;
+  }
+  .container:first-child {
+    padding: 20px;
+    width:500px;
+    height: 500px;
+    background-color: aqua;
+    border: 1px solid black;
+  }
+  
+  .d-none {
+    display: none;
+  }
+   
+  button {
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 5%;
+    background-color: #0077FF;
+    color: white;
+    cursor: pointer;
+  }
+  
